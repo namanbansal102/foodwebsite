@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    padding: 10px;
+    background-color: rgb(250,250,250)
+    
+}
+.container{
+    height: 100vh;
+    width: 98.6vw;
+    background-color: rgb(250,250,250)
+}
+.nav-left{
+    
+    width: fit-content;
+    letter-spacing: 2px;
+    font-family:cursive}
+.nav-right{
+    
+    padding-right: 5px;
+    padding-right: 5px;
+    display: flex;
+    column-gap: 18px;
+}
+.welcome-nav{
+    font-size: 27px;
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-right input{
+    height: 45px;
+    width: 290px;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 24px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.nav-right i{
+    font-size: 24px;
+    color: rgb(249, 220, 0);
+}
+.nav-left span:nth-child(2){
+    color: rgb(182, 182, 182);
+}
+.container-middle-img{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-middle-img img{
+    height: 35vh;
+    width: 98vw;
+}
+.middle-port{
+    
+    display: flex;
+    flex-direction: column;
+}
+.middle-port-sec img{
+    height: 140px;
+    width: 140px;
+    border-radius: 24px;
+    
+}
+.middle-port-sec{
+    padding-right: 15px;
+    padding-left:10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: center;
+}
+.img-div{
+   
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 2px 1px 13px 1px lightgray;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.two{
+    
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    
+}
+
+.price-cart{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    column-gap: 9px;
+}
+.price-cart i{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(222, 222, 40);
+    cursor: pointer;
+}
+footer{
+    height: 14vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* other pages css for like pizza pasta momos salad */
+.secndc{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+
+}
+.secndc img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+}
